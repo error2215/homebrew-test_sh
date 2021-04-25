@@ -4,7 +4,7 @@
 class TestSh < Formula
   desc ""
   homepage ""
-  url "https://github.com/error2215/test_sh/archive/v0.0.2.tar.gz"
+  url "https://github.com/error2215/test_sh/archive/v0.0.3.tar.gz"
   sha256 "1da2da34f759dac9fe2edfb4768b1a7c7f2c5ce3db763aefa12f5997435db6e5"
   license ""
 
@@ -14,7 +14,7 @@ class TestSh < Formula
     # ENV.deparallelize  # if your formula fails when building in parallel
     # Remove unrecognized options if warned by configure
     # https://rubydoc.brew.sh/Formula.html#std_configure_args-instance_method
-    system "echo 123"
+    bin.install "test_sh"
     # system "cmake", "-S", ".", "-B", "build", *std_cmake_args
   end
 
