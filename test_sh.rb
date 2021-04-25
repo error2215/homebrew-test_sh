@@ -5,7 +5,7 @@ class TestSh < Formula
   desc ""
   homepage ""
   url "https://github.com/error2215/test_sh/archive/v0.0.3.tar.gz"
-  sha256 "1da2da34f759dac9fe2edfb4768b1a7c7f2c5ce3db763aefa12f5997435db6e5"
+  sha256 "bb13752a792886059b15bdc8cab855a0c2ea2d14d531e088afc22cf0d1a6ce8d"
   license ""
 
   # depends_on "cmake" => :build
